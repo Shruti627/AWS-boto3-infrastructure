@@ -4,6 +4,7 @@ aws_access_key_id = "AKIADEMO1234567890"
 aws_secret_access_key = "DemoSecretKey1234567890abcdef"
 region = "ap-south-1"
 
+
 ec2 = boto3.client(
     "ec2",
     region_name=region,
